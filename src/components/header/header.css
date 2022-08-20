@@ -20,6 +20,15 @@ header {
     justify-content: center;
 }
 
+.CTA {
+    margin-top: 10px;
+    background-color: black;
+}
+
+.CTA .btn:last-child{
+    margin-left: 10px;
+}
+
 
 /* ########### Header SOCIALS ##############*/
 
@@ -49,6 +58,7 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
+    bottom: 0px;
     margin-top: -2rem;
     border-radius: 15rem 15rem 0 0;
     overflow: hidden;
